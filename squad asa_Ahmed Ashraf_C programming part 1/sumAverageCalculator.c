@@ -2,19 +2,19 @@
 #include <stdlib.h>
 
 int main() {
-    int firstNumber;
-    int secondNumber;
-    int thirdNumber;
+    float firstNumber;
+    float secondNumber;
+    float thirdNumber;
 
     printf("Enter the first number: ");
-    scanf("%d",&firstNumber);
+    scanf("%f",&firstNumber);
     printf("Enter the second number: ");
-    scanf("%d",&secondNumber);
+    scanf("%f",&secondNumber);
     printf("Enter the third number: ");
-    scanf("%d",&thirdNumber);
+    scanf("%f",&thirdNumber);
 
-    int sum = firstNumber + secondNumber + thirdNumber;
-    int avg = sum / 3;
+    float sum = firstNumber + secondNumber + thirdNumber;
+    float avg = sum / 3;
 
-    printf("sum = %d \t avg = %d",sum,avg);
+    printf("sum = %f \t avg = %f",sum,avg);
 }
