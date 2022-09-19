@@ -1,3 +1,6 @@
+#I added a negative_exponent_calculator to deal with negative powers since the normal function
+#will only work with positive powers
+
 def exponent_calculator(number, power):
     result = 1
     for i in range(power, 0, -1):
