@@ -1,4 +1,17 @@
-secret_word = "Hello"
+from random import randint
+
+list_of_words = [
+    "car",
+    "bus",
+    "train",
+    "plane",
+    "bike",
+    "rocket",
+]
+
+randon_index = randint(0, len(list_of_words) - 1)
+secret_word = list_of_words[randon_index]
+
 number_of_guesses = 3
 guesses_left = True
 guess = ""
